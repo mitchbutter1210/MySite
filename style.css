@@ -51,16 +51,11 @@ body {
     flex-wrap: wrap;
 }
 
-.side {
-    flex: 50%;
-    background-color: #f1f1f1;
-    padding: 20px;
-}
-
 .main {
-    flex: 50%;
+    flex: auto;
     background-color: white;
     padding: 20px;
+    text-align: center;
 }
 
 @media screen and (max-width: 700px) {
